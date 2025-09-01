@@ -4,7 +4,7 @@ export default {
       noResults: 'No results.',
       selectPlaceholder: 'select value',
       delete: 'Delete',
-      deleteModalTitle: 'Are you sure to delete this item?',
+      deleteModalTitle: 'Are you sure you want to delete this item?',
       ok: 'Yes',
       cancel: 'No',
       no: 'No',
@@ -12,7 +12,7 @@ export default {
       rename: 'Rename',
       name: 'Name',
       save: 'Save',
-      namePlaceholder: 'Please input name',
+      namePlaceholder: 'Please enter name',
       next: 'Next',
       create: 'Create',
       edit: 'Edit',
@@ -22,7 +22,7 @@ export default {
       chinese: 'Simplified Chinese',
       traditionalChinese: 'Traditional Chinese',
       language: 'Language',
-      languageMessage: 'Please input your language!',
+      languageMessage: 'Please select your language!',
       languagePlaceholder: 'select your language',
       copy: 'Copy',
       copied: 'Copied',
@@ -35,7 +35,7 @@ export default {
       action: 'Action',
       s: 'S',
       pleaseSelect: 'Please select',
-      pleaseInput: 'Please input',
+      pleaseenter: 'Please enter',
       submit: 'Submit',
       embedIntoSite: 'Embed into webpage',
       previousPage: 'Previous',
@@ -44,7 +44,7 @@ export default {
       remove: 'Remove',
       search: 'Search',
       noDataFound: 'No data found.',
-      promptPlaceholder: `Please input or use / to quickly insert variables.`,
+      promptPlaceholder: `Please enter or use / to quickly insert variables.`,
       mcp: {
         namePlaceholder: 'My MCP Server',
         nameRequired:
@@ -59,19 +59,19 @@ export default {
       loginDescription: 'We’re so excited to see you again!',
       registerDescription: 'Glad to have you on board!',
       emailLabel: 'Email',
-      emailPlaceholder: 'Please input email',
+      emailPlaceholder: 'Please enter email',
       passwordLabel: 'Password',
-      passwordPlaceholder: 'Please input password',
+      passwordPlaceholder: 'Please enter password',
       rememberMe: 'Remember me',
       signInTip: 'Don’t have an account?',
       signUpTip: 'Already have an account?',
       nicknameLabel: 'Nickname',
-      nicknamePlaceholder: 'Please input nickname',
+      nicknamePlaceholder: 'Please enter nickname',
       register: 'Create an account',
       continue: 'Continue',
       title: 'Start building your smart assistants.',
       description:
-        'Sign up for free to explore top RAG technology. Create knowledge bases and AIs to empower your business.',
+        'Sign up for free to explore top RAG technology. Create datasets and AIs to empower your business.',
       review: 'from 500+ reviews',
     },
     header: {
@@ -90,10 +90,10 @@ export default {
     },
     knowledgeList: {
       welcome: 'Welcome back',
-      description: 'Which knowledge bases will you use today?',
+      description: 'Which datasets will you use today?',
       createKnowledgeBase: 'Create Dataset',
       name: 'Name',
-      namePlaceholder: 'Please input name!',
+      namePlaceholder: 'Please enter name!',
       doc: 'Docs',
       searchKnowledgePlaceholder: 'Search',
       noMoreData: `That's all. Nothing more.`,
@@ -107,7 +107,7 @@ export default {
       testSetting: 'Test Setting',
       retrievalTesting: 'Retrieval Testing',
       retrievalTestingDescription:
-        'Conduct a retrieval test to check if RAGFlow can recover the intended content for the LLM.',
+        'Conduct a retrieval test to check if KOGNIX can recover the intended content for the LLM.',
       Parse: 'Parse',
       dataset: 'Dataset',
       testing: 'Retrieval testing',
@@ -115,7 +115,7 @@ export default {
       configuration: 'Configuration',
       knowledgeGraph: 'Knowledge graph',
       name: 'Name',
-      namePlaceholder: 'Please input name!',
+      namePlaceholder: 'Please enter name!',
       doc: 'Docs',
       datasetDescription:
         '😉 Please wait for your files to finish parsing before starting an AI-powered chat.',
@@ -132,22 +132,22 @@ export default {
       action: 'Action',
       parsingStatus: 'Parsing Status',
       parsingStatusTip:
-        'Document parsing time varies based on several factors. Enabling features like Knowledge Graph, RAPTOR, Auto Question Extraction, or Auto Keyword Extraction will significantly increase processing time. If the progress bar stalls, please consult these two FAQs: https://ragflow.io/docs/dev/faq#why-does-my-document-parsing-stall-at-under-one-percent.',
+        'Document parsing time varies based on several factors. Enabling features like Knowledge Graph, RAPTOR, Auto Question Extraction, or Auto Keyword Extraction will significantly increase processing time. If the progress bar stalls, please consult these two FAQs: https://KOGNIX.io/docs/dev/faq#why-does-my-document-parsing-stall-at-under-one-percent.',
       processBeginAt: 'Begin at',
       processDuration: 'Duration',
       progressMsg: 'Progress',
       testingDescription:
-        'Conduct a retrieval test to check if RAGFlow can recover the intended content for the LLM. If you have adjusted the default settings, such as keyword similarity weight or similarity threshold, to achieve the optimal results, be aware that these changes will not be automatically saved. You must apply them to your chat assistant settings or the Retrieval agent component settings.',
+        'Conduct a retrieval test to check if KOGNIX can recover the intended content for the LLM. If you have adjusted the default settings, such as keyword similarity weight or similarity threshold, to achieve the optimal results, be aware that these changes will not be automatically saved. You must apply them to your chat assistant settings or the Retrieval agent component settings.',
       similarityThreshold: 'Similarity threshold',
       similarityThresholdTip:
-        'RAGFlow employs either a combination of weighted keyword similarity and weighted vector cosine similarity, or a combination of weighted keyword similarity and weighted reranking score during retrieval. This parameter sets the threshold for similarities between the user query and chunks. Any chunk with a similarity score below this threshold will be excluded from the results. By default, the threshold is set to 0.2. This means that only chunks with hybrid similarity score of 20 or higher will be retrieved.',
+        'KOGNIX employs either a combination of weighted keyword similarity and weighted vector cosine similarity, or a combination of weighted keyword similarity and weighted reranking score during retrieval. This parameter sets the threshold for similarities between the user query and chunks. Any chunk with a similarity score below this threshold will be excluded from the results. By default, the threshold is set to 0.2. This means that only chunks with hybrid similarity score of 20 or higher will be retrieved.',
       vectorSimilarityWeight: 'Vector similarity weight',
       vectorSimilarityWeightTip:
         'This sets the weight of keyword similarity in the combined similarity score, either used with vector cosine similarity or with reranking score. The total of the two weights must equal 1.0.',
       keywordSimilarityWeight: 'Keyword similarity weight',
       keywordSimilarityWeightTip: '',
       testText: 'Test text',
-      testTextPlaceholder: 'Input your question here!',
+      testTextPlaceholder: 'Enter your question here!',
       testingLabel: 'Testing',
       similarity: 'Hybrid similarity',
       termSimilarity: 'Term similarity',
@@ -173,7 +173,7 @@ export default {
       layoutRecognizeTip:
         'Use a visual model for PDF layout analysis to effectively locate document titles, text blocks, images, and tables. If the naive option is chosen, only the plain text in the PDF will be retrieved. Please note that this option currently works ONLY for PDF documents.',
       taskPageSize: 'Task page size',
-      taskPageSizeMessage: 'Please input your task page size!',
+      taskPageSizeMessage: 'Please enter your task page size!',
       taskPageSizeTip: `During layout recognition, a PDF file is split into chunks and processed in parallel to increase processing speed. This parameter sets the size of each chunk. A larger chunk size reduces the likelihood of splitting continuous text between pages.`,
       addPage: 'Add page',
       greaterThan: 'The current value must be greater than to!',
@@ -183,44 +183,44 @@ export default {
       changeSpecificCategory: 'Change specific category',
       uploadTitle: 'Drag and drop your file here to upload',
       uploadDescription:
-        'Supports single or batch file upload. For a locally deployed RAGFlow: the total file size limit per upload is 1GB, with a batch upload limit of 32 files. There is no cap on the total number of files per account. For demo.ragflow.io, the total file size limit per upload is 10MB, with each file not exceeding 10MB and a maximum of 128 files per account.',
+        'Supports single or batch file upload. For a locally deployed KOGNIX: the total file size limit per upload is 1GB, with a batch upload limit of 32 files. There is no cap on the total number of files per account. For demo.KOGNIX.io, the total file size limit per upload is 10MB, with each file not exceeding 10MB and a maximum of 128 files per account.',
       chunk: 'Chunk',
       bulk: 'Bulk',
       cancel: 'Cancel',
       rerankModel: 'Rerank model',
       rerankPlaceholder: 'Please select',
-      rerankTip: `Optional. If left empty, RAGFlow will use a combination of weighted keyword similarity and weighted vector cosine similarity; if a rerank model is selected, a weighted reranking score will replace the weighted vector cosine similarity. Please be aware that using a rerank model will significantly increase the system's response time. If you wish to use a rerank model, ensure you use a SaaS reranker; if you prefer a locally deployed rerank model, ensure you start RAGFlow with docker-compose-gpu.yml.`,
+      rerankTip: `Optional. If left empty, KOGNIX will use a combination of weighted keyword similarity and weighted vector cosine similarity; if a rerank model is selected, a weighted reranking score will replace the weighted vector cosine similarity. Please be aware that using a rerank model will significantly increase the system's response time. If you wish to use a rerank model, ensure you use a SaaS reranker; if you prefer a locally deployed rerank model, ensure you start KOGNIX with docker-compose-gpu.yml.`,
       topK: 'Top-K',
       topKTip: `Used together with the Rerank model, this setting defines the number of text chunks to be sent to the specified reranking model.`,
       delimiter: `Delimiter for text`,
       delimiterTip:
         'A delimiter or separator can consist of one or multiple special characters. If it is multiple characters, ensure they are enclosed in backticks( ``). For example, if you configure your delimiters like this: \\n`##`;, then your texts will be separated at line breaks, double hash symbols (##), and semicolons.',
       html4excel: 'Excel to HTML',
-      html4excelTip: `Use with the General chunking method. When disabled, spreadsheets (XLSX or XLS(Excel 97-2003)) in the knowledge base will be parsed into key-value pairs. When enabled, they will be parsed into HTML tables, splitting every 12 rows if the original table has more than 12 rows. See https://ragflow.io/docs/dev/enable_excel2html for details.`,
+      html4excelTip: `Use with the General chunking method. When disabled, spreadsheets (XLSX or XLS(Excel 97-2003)) in the dataset will be parsed into key-value pairs. When enabled, they will be parsed into HTML tables, splitting every 12 rows if the original table has more than 12 rows. See https://KOGNIX.io/docs/dev/enable_excel2html for details.`,
       autoKeywords: 'Auto-keyword',
-      autoKeywordsTip: `Automatically extract N keywords for each chunk to increase their ranking for queries containing those keywords. Be aware that extra tokens will be consumed by the chat model specified in 'System model settings'. You can check or update the added keywords for a chunk from the chunk list. For details, see https://ragflow.io/docs/dev/autokeyword_autoquestion.`,
+      autoKeywordsTip: `Automatically extract N keywords for each chunk to increase their ranking for queries containing those keywords. Be aware that extra tokens will be consumed by the chat model specified in 'System model settings'. You can check or update the added keywords for a chunk from the chunk list. For details, see https://KOGNIX.io/docs/dev/autokeyword_autoquestion.`,
       autoQuestions: 'Auto-question',
-      autoQuestionsTip: `Automatically extract N questions for each chunk to increase their ranking for queries containing those questions. You can check or update the added questions for a chunk from the chunk list. This feature will not disrupt the chunking process if an error occurs, except that it may add an empty result to the original chunk. Be aware that extra tokens will be consumed by the LLM specified in 'System model settings'. For details, see https://ragflow.io/docs/dev/autokeyword_autoquestion.`,
+      autoQuestionsTip: `Automatically extract N questions for each chunk to increase their ranking for queries containing those questions. You can check or update the added questions for a chunk from the chunk list. This feature will not disrupt the chunking process if an error occurs, except that it may add an empty result to the original chunk. Be aware that extra tokens will be consumed by the LLM specified in 'System model settings'. For details, see https://KOGNIX.io/docs/dev/autokeyword_autoquestion.`,
       redo: 'Do you want to clear the existing {{chunkNum}} chunks?',
       setMetaData: 'Set Meta Data',
-      pleaseInputJson: 'Please enter JSON',
+      pleaseenterJson: 'Please enter JSON',
       documentMetaTips: `<p>The meta data is in Json format(it's not searchable). It will be added into prompt for LLM if any chunks of this document are included in the prompt.</p>
 <p>Examples:</p>
 <b>The meta data is:</b><br>
 <code>
   {
-      "Author": "Alex Dowson",
-      "Date": "2024-11-12"
+      "Author": "VAI",
+      "Date": "2025-11-11"
   }
 </code><br>
 <b>The prompt will be:</b><br>
 <p>Document: the_name_of_document</p>
-<p>Author: Alex Dowson</p>
-<p>Date: 2024-11-12</p>
+<p>Author: VAI</p>
+<p>Date: 2025-11-11</p>
 <p>Relevant fragments as following:</p>
 <ul>
-<li>  Here is the chunk content....</li>
-<li>  Here is the chunk content....</li>
+<li>  Here is the content....</li>
+<li>  Here is the content....</li>
 </ul>
 `,
       metaData: 'Meta data',
@@ -231,22 +231,22 @@ export default {
     },
     knowledgeConfiguration: {
       titleDescription:
-        'Update your knowledge base configuration here, particularly the chunking method.',
-      name: 'Knowledge base name',
-      photo: 'Knowledge base photo',
+        'Update your dataset configuration here, particularly the chunking method.',
+      name: 'dataset name',
+      photo: 'dataset photo',
       photoTip: 'You can upload a file with 4 MB',
       description: 'Description',
       language: 'Document language',
-      languageMessage: 'Please input your language!',
-      languagePlaceholder: 'Please input your language!',
+      languageMessage: 'Please enter your language!',
+      languagePlaceholder: 'Please enter your language!',
       permissions: 'Permissions',
       embeddingModel: 'Embedding model',
       chunkTokenNumber: 'Recommended chunk size',
       chunkTokenNumberMessage: 'Chunk token number for text is required',
       embeddingModelTip:
-        'The default embedding model for the knowledge base. It cannot be changed once the knowledge base has chunks. To switch to a different default embedding model, you must delete all existing chunks in the knowledge base.',
+        'The default embedding model for the dataset. It cannot be changed once the dataset has chunks. To switch to a different default embedding model, you must delete all existing chunks in the dataset.',
       permissionsTip:
-        "If it is set to 'Team', all your team members will be able to manage the knowledge base.",
+        "If it is set to 'Team', all your team members will be able to manage the dataset.",
       chunkTokenNumberTip:
         'It kind of sets the token threshold for a creating a chunk. A segment with fewer tokens than this threshold will be combined with the following segments until the token count exceeds the threshold, at which point a chunk is created. No new chunk is created unless a delimiter is encountered, even if the threshold is exceeded.',
       chunkMethod: 'Chunking method',
@@ -267,7 +267,7 @@ export default {
         'The following screenshots are provided for clarification.',
       dialogueExamplesTitle: 'view',
       methodEmpty:
-        'This will display a visual explanation of the knowledge base categories',
+        'This will display a visual explanation of the dataset categories',
       book: `<p>Supported file formats are <b>DOCX</b>, <b>PDF</b>, <b>TXT</b>.</p><p>
       For each book in PDF, please set the <i>page ranges</i> to remove unwanted information and reduce analysis time.</p>`,
       laws: `<p>Supported file formats are <b>DOCX</b>, <b>PDF</b>, <b>TXT</b>.</p><p>
@@ -345,9 +345,9 @@ export default {
 <p>This approach chunks files using the 'naive'/'General' method. It splits a document into segments and then combines adjacent segments until the token count exceeds the threshold specified by 'Chunk token number for text', at which point a chunk is created.</p>
 <p>The chunks are then fed to the LLM to extract entities and relationships for a knowledge graph and a mind map.</p>
 <p>Ensure that you set the <b>Entity types</b>.</p>`,
-      tag: `<p>A knowledge base using the 'Tag' chunking method functions as a tag set. Other knowledge bases use it to tag their chunks, and queries to these knowledge bases are also tagged using this tag set.</p>
+      tag: `<p>A dataset using the 'Tag' chunking method functions as a tag set. Other datasets use it to tag their chunks, and queries to these datasets are also tagged using this tag set.</p>
 <p>A tag set will <b>NOT</b> be directly involved in a Retrieval-Augmented Generation (RAG) process.</p>
-<p>Each chunk in this knowledge base is an independent description-tag pair.</p>
+<p>Each chunk in this dataset is an independent description-tag pair.</p>
 <p>Supported file formats include <b>XLSX</b> and <b>CSV/TXT</b>:</p>
 <p>If a file is in <b>XLSX</b> format, it should contain two columns without headers: one for tag descriptions and the other for tag names, with the Description column preceding the Tag column. Multiple sheets are acceptable, provided the columns are properly structured.</p>
 <p>If a file is in <b>CSV/TXT</b> format, it must be UTF-8 encoded with TAB as the delimiter to separate descriptions and tags.</p>
@@ -356,10 +356,10 @@ export default {
 `,
       useRaptor: 'Use RAPTOR to enhance retrieval',
       useRaptorTip:
-        'Enable RAPTOR for multi-hop question-answering tasks. See https://ragflow.io/docs/dev/enable_raptor for details.',
+        'Enable RAPTOR for multi-hop question-answering tasks. See https://KOGNIX.io/docs/dev/enable_raptor for details.',
       prompt: 'Prompt',
       promptTip:
-        'Use the system prompt to describe the task for the LLM, specify how it should respond, and outline other miscellaneous requirements. The system prompt is often used in conjunction with keys (variables), which serve as various data inputs for the LLM. Use a forward slash `/` or the (x) button to show the keys to use.',
+        'Use the system prompt to describe the task for the LLM, specify how it should respond, and outline other miscellaneous requirements. The system prompt is often used in conjunction with keys (variables), which serve as various data enters for the LLM. Use a forward slash `/` or the (x) button to show the keys to use.',
       promptMessage: 'Prompt is required',
       promptText: `Please summarize the following paragraphs. Be careful with the numbers, do not make things up. Paragraphs as following:
       {cluster_content}
@@ -379,7 +379,7 @@ The above is the content you need to summarize.`,
       entityTypes: 'Entity types',
       vietnamese: 'Vietnamese',
       pageRank: 'Page rank',
-      pageRankTip: `You can assign a higher PageRank score to specific knowledge bases during retrieval. The corresponding score is added to the hybrid similarity scores of retrieved chunks from these knowledge bases, increasing their ranking. See https://ragflow.io/docs/dev/set_page_rank for details.`,
+      pageRankTip: `You can assign a higher PageRank score to specific datasets during retrieval. The corresponding score is added to the hybrid similarity scores of retrieved chunks from these datasets, increasing their ranking. See https://KOGNIX.io/docs/dev/set_page_rank for details.`,
       tagName: 'Tag',
       frequency: 'Frequency',
       searchTags: 'Search tags',
@@ -387,12 +387,12 @@ The above is the content you need to summarize.`,
       tagTable: 'Table',
       tagSet: 'Tag sets',
       tagSetTip: `
-     <p> Select one or multiple tag knowledge bases to auto-tag chunks in your knowledge base. See https://ragflow.io/docs/dev/use_tag_sets for details.</p>
+     <p> Select one or multiple tag datasets to auto-tag chunks in your dataset. See https://KOGNIX.io/docs/dev/use_tag_sets for details.</p>
 <p>The user query will also be auto-tagged.</p>
 This auto-tagging feature enhances retrieval by adding another layer of domain-specific knowledge to the existing dataset.
 <p>Difference between auto-tag and auto-keyword:</p>
 <ul>
-  <li>A tag knowledge base is a user-defined close set, whereas keywords extracted by the LLM can be regarded as an open set.</li>
+  <li>A tag dataset is a user-defined close set, whereas keywords extracted by the LLM can be regarded as an open set.</li>
   <li>You must upload tag sets in specified formats before running the auto-tag feature.</li>
   <li>The auto-keyword feature is dependent on the LLM and consumes a significant number of tokens.</li>
 </ul>
@@ -402,7 +402,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       addTag: 'Add tag',
       useGraphRag: 'Extract knowledge graph',
       useGraphRagTip:
-        'Construct a knowledge graph over file chunks of the current knowledge base to enhance multi-hop question-answering involving nested logic. See https://ragflow.io/docs/dev/construct_knowledge_graph for details.',
+        'Construct a knowledge graph over file chunks of the current dataset to enhance multi-hop question-answering involving nested logic. See https://KOGNIX.io/docs/dev/construct_knowledge_graph for details.',
       graphRagMethod: 'Method',
       graphRagMethodTip: `Light: (Default) Use prompts provided by github.com/HKUDS/LightRAG to extract entities and relationships. This option consumes fewer tokens, less memory, and fewer computational resources.</br>
         General: Use prompts provided by github.com/microsoft/graphrag to extract entities and relationships`,
@@ -427,7 +427,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       disabled: 'Disabled',
       keyword: 'Keyword',
       function: 'Function',
-      chunkMessage: 'Please input value!',
+      chunkMessage: 'Please enter value!',
       full: 'Full text',
       ellipse: 'Ellipse',
       graph: 'Knowledge graph',
@@ -441,7 +441,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       delete: 'Delete',
     },
     chat: {
-      newConversation: 'New conversation',
+      newConversation: 'New Conversation',
       createAssistant: 'Create an Assistant',
       assistantSetting: 'Assistant settings',
       promptEngine: 'Prompt engine',
@@ -452,34 +452,34 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       sendPlaceholder: 'Message the assistant...',
       chatConfiguration: 'Chat Configuration',
       chatConfigurationDescription:
-        ' Set up a chat assistant for your selected datasets (knowledge bases) here! 💕',
+        ' Set up a chat assistant for your selected datasets (datasets) here! 💕',
       assistantName: 'Assistant name',
       assistantNameMessage: 'Assistant name is required',
       namePlaceholder: 'e.g. Resume Jarvis',
       assistantAvatar: 'Assistant avatar',
       language: 'Language',
       emptyResponse: 'Empty response',
-      emptyResponseTip: `Set this as a response if no results are retrieved from the knowledge bases for your query, or leave this field blank to allow the LLM to improvise when nothing is found.`,
-      emptyResponseMessage: `Empty response will be triggered when nothing relevant is retrieved from knowledge bases. You must clear the 'Empty response' field if no knowledge base is selected.`,
+      emptyResponseTip: `Set this as a response if no results are retrieved from the datasets for your query, or leave this field blank to allow the LLM to improvise when nothing is found.`,
+      emptyResponseMessage: `Empty response will be triggered when nothing relevant is retrieved from datasets. You must clear the 'Empty response' field if no dataset is selected.`,
       setAnOpener: 'Opening greeting',
       setAnOpenerInitial: `Hi! I'm your assistant. What can I do for you?`,
       setAnOpenerTip: 'Set an opening greeting for users.',
-      knowledgeBases: 'Knowledge bases',
+      knowledgeBases: 'datasets',
       knowledgeBasesMessage: 'Please select',
       knowledgeBasesTip:
-        'Select the knowledge bases to associate with this chat assistant. An empty knowledge base will not appear in the dropdown list.',
+        'Select the datasets to associate with this chat assistant. An empty dataset will not appear in the dropdown list.',
       system: 'System prompt',
-      systemInitialValue: `You are an intelligent assistant. Please summarize the content of the knowledge base to answer the question. Please list the data in the knowledge base and answer in detail. When all knowledge base content is irrelevant to the question, your answer must include the sentence "The answer you are looking for is not found in the knowledge base!" Answers need to consider chat history.
-      Here is the knowledge base:
+      systemInitialValue: `You are an intelligent assistant. Please summarize the content of the dataset to answer the question. Please list the data in the dataset and answer in detail. When all dataset content is irrelevant to the question, your answer must include the sentence "The answer you are looking for is not found in the dataset!" Answers need to consider chat history.
+      Here is the dataset:
       {knowledge}
-      The above is the knowledge base.`,
-      systemMessage: 'Please input!',
+      The above is the dataset.`,
+      systemMessage: 'Please enter!',
       systemTip:
         'Your prompts or instructions for the LLM, including but not limited to its role, the desired length, tone, and language of its answers. If your model has native support for reasoning, you can add //no_thinking add the prompt to stop reasoning.',
       topN: 'Top N',
       topNTip: `Not all chunks with similarity score above the 'similarity threshold' will be sent to the LLM. This selects 'Top N' chunks from the retrieved ones.`,
       variable: 'Variable',
-      variableTip: `Used together with RAGFlow's chat assistant management APIs, variables can help develop more flexible system prompt strategies. The defined variables will be used by 'System prompt' as part of the prompts for the LLM. {knowledge} is a reserved special variable representing chunks retrieved from specified knowledge base(s), and all variables should be enclosed in curly braces {} in the 'System prompt'. See https://ragflow.io/docs/dev/set_chat_variables for details.`,
+      variableTip: `Used together with KOGNIX's chat assistant management APIs, variables can help develop more flexible system prompt strategies. The defined variables will be used by 'System prompt' as part of the prompts for the LLM. {knowledge} is a reserved special variable representing chunks retrieved from specified dataset(s), and all variables should be enclosed in curly braces {} in the 'System prompt'. See https://KOGNIX.io/docs/dev/set_chat_variables for details.`,
       add: 'Add',
       key: 'Key',
       optional: 'Optional',
@@ -546,7 +546,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       extensionTitle: 'Chrome Extension',
       tokenError: 'Please create API key first.',
       betaError:
-        'Please acquire a RAGFlow API key from the System Settings page first.',
+        'Please acquire a KOGNIX API key from the System Settings page first.',
       searching: 'Searching...',
       parsing: 'Parsing',
       uploading: 'Uploading',
@@ -566,7 +566,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       descriptionPlaceholder: 'e.g. A chat assistant for resume.',
       useKnowledgeGraph: 'Use knowledge graph',
       useKnowledgeGraphTip:
-        'Whether to use knowledge graph(s) in the specified knowledge base(s) during retrieval for multi-hop question answering. When enabled, this would involve iterative searches across entity, relationship, and community report chunks, greatly increasing retrieval time.',
+        'Whether to use knowledge graph(s) in the specified dataset(s) during retrieval for multi-hop question answering. When enabled, this would involve iterative searches across entity, relationship, and community report chunks, greatly increasing retrieval time.',
       keyword: 'Keyword analysis',
       keywordTip: `Use LLM to analyze user's questions, extract keywords which will be emphasize during the relevance computation. Works well with lengthy queries but will increase response time.`,
       languageTip:
@@ -577,7 +577,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       reasoning: 'Reasoning',
       reasoningTip: `Whether to enable a reasoning workflow during question answering, as seen in models like Deepseek-R1 or OpenAI o1. When enabled, this allows the model to access external knowledge and tackle complex questions in a step-by-step manner, leveraging techniques like chain-of-thought reasoning. This approach enhances the model's ability to provide accurate responses by breaking down problems into manageable steps, improving performance on tasks that require logical reasoning and multi-step thinking.`,
       tavilyApiKeyTip:
-        'If an API key is correctly set here, Tavily-based web searches will be used to supplement knowledge base retrieval.',
+        'If an API key is correctly set here, Tavily-based web searches will be used to supplement dataset retrieval.',
       tavilyApiKeyMessage: 'Please enter your Tavily API Key',
       tavilyApiKeyHelp: 'How to get it?',
       crossLanguage: 'Cross-language search',
@@ -616,7 +616,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       logout: 'Log out',
       api: 'API',
       username: 'Username',
-      usernameMessage: 'Please input your username!',
+      usernameMessage: 'Please enter your username!',
       photo: 'Your photo',
       photoDescription: 'This will be displayed on your profile.',
       colorSchema: 'Color schema',
@@ -625,15 +625,15 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       bright: 'Bright',
       dark: 'Dark',
       timezone: 'Time zone',
-      timezoneMessage: 'Please input your timezone!',
+      timezoneMessage: 'Please enter your timezone!',
       timezonePlaceholder: 'select your timezone',
       email: 'Email address',
       emailDescription: 'Once registered, E-mail cannot be changed.',
       currentPassword: 'Current password',
-      currentPasswordMessage: 'Please input your password!',
+      currentPasswordMessage: 'Please enter your password!',
       newPassword: 'New password',
       changePassword: 'Change Password',
-      newPasswordMessage: 'Please input your password!',
+      newPasswordMessage: 'Please enter your password!',
       newPasswordDescription:
         'Your new password must be more than 8 characters.',
       confirmPassword: 'Confirm new password',
@@ -658,21 +658,21 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       systemModelSettings: 'Set default models',
       chatModel: 'Chat model',
       chatModelTip:
-        'The default chat model for each newly created knowledge base.',
+        'The default chat model for each newly created dataset.',
       embeddingModel: 'Embedding model',
       embeddingModelTip:
-        'The default embedding model for each newly created knowledge base. If you cannot find an embedding model from the dropdown, check if you are using RAGFlow slim edition (which does not include embedding models) or check https://ragflow.io/docs/dev/supported_models to see if your model provider supports this model.',
+        'The default embedding model for each newly created dataset. If you cannot find an embedding model from the dropdown, check if you are using KOGNIX slim edition (which does not include embedding models) or check https://KOGNIX.io/docs/dev/supported_models to see if your model provider supports this model.',
       img2txtModel: 'Img2txt model',
       img2txtModelTip:
-        'The default img2txt model for each newly created knowledge base. It describes a picture or video. If you cannot find a model from the dropdown, check https://ragflow.io/docs/dev/supported_models to see if your model provider supports this model.',
+        'The default img2txt model for each newly created dataset. It describes a picture or video. If you cannot find a model from the dropdown, check https://KOGNIX.io/docs/dev/supported_models to see if your model provider supports this model.',
       sequence2txtModel: 'Speech2txt model',
       sequence2txtModelTip:
         'The default ASR model for each newly created knowledgebase. Use this model to translate voices to corresponding text.',
       rerankModel: 'Rerank model',
-      rerankModelTip: `The default rerank model for reranking chunks. If you cannot find a model from the dropdown, check https://ragflow.io/docs/dev/supported_models to see if your model provider supports this model.`,
+      rerankModelTip: `The default rerank model for reranking chunks. If you cannot find a model from the dropdown, check https://KOGNIX.io/docs/dev/supported_models to see if your model provider supports this model.`,
       ttsModel: 'TTS Model',
       ttsModelTip:
-        'The default text-to-speech model. If you cannot find a model from the dropdown, check https://ragflow.io/docs/dev/supported_models to see if your model provider supports this model.',
+        'The default text-to-speech model. If you cannot find a model from the dropdown, check https://KOGNIX.io/docs/dev/supported_models to see if your model provider supports this model.',
       workspace: 'Workspace',
       upgrade: 'Upgrade',
       addLlmTitle: 'Add LLM',
@@ -681,25 +681,25 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       modelName: 'Model name',
       modelID: 'Model ID',
       modelUid: 'Model UID',
-      modelNameMessage: 'Please input your model name!',
+      modelNameMessage: 'Please enter your model name!',
       modelType: 'Model type',
-      modelTypeMessage: 'Please input your model type!',
+      modelTypeMessage: 'Please enter your model type!',
       addLlmBaseUrl: 'Base url',
-      baseUrlNameMessage: 'Please input your base url!',
+      baseUrlNameMessage: 'Please enter your base url!',
       vision: 'Does it support Vision?',
       ollamaLink: 'How to integrate {{name}}',
       FishAudioLink: 'How to use FishAudio',
       TencentCloudLink: 'How to use TencentCloud ASR',
-      volcModelNameMessage: 'Please input your model name!',
+      volcModelNameMessage: 'Please enter your model name!',
       addEndpointID: 'EndpointID of the model',
-      endpointIDMessage: 'Please input your EndpointID of the model',
+      endpointIDMessage: 'Please enter your EndpointID of the model',
       addArkApiKey: 'VOLC ARK_API_KEY',
-      ArkApiKeyMessage: 'Please input your ARK_API_KEY',
-      bedrockModelNameMessage: 'Please input your model name!',
+      ArkApiKeyMessage: 'Please enter your ARK_API_KEY',
+      bedrockModelNameMessage: 'Please enter your model name!',
       addBedrockEngineAK: 'ACCESS KEY',
-      bedrockAKMessage: 'Please input your ACCESS KEY',
+      bedrockAKMessage: 'Please enter your ACCESS KEY',
       addBedrockSK: 'SECRET KEY',
-      bedrockSKMessage: 'Please input your SECRET KEY',
+      bedrockSKMessage: 'Please enter your SECRET KEY',
       bedrockRegion: 'AWS Region',
       bedrockRegionMessage: 'Please select!',
       'us-east-2': 'US East (Ohio)',
@@ -738,46 +738,46 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       'us-gov-east-1': 'AWS GovCloud (US-East)',
       'us-gov-west-1': 'AWS GovCloud (US-West)',
       addHunyuanSID: 'Hunyuan Secret ID',
-      HunyuanSIDMessage: 'Please input your Secret ID',
+      HunyuanSIDMessage: 'Please enter your Secret ID',
       addHunyuanSK: 'Hunyuan Secret Key',
-      HunyuanSKMessage: 'Please input your Secret Key',
+      HunyuanSKMessage: 'Please enter your Secret Key',
       addTencentCloudSID: 'TencentCloud Secret ID',
-      TencentCloudSIDMessage: 'Please input your Secret ID',
+      TencentCloudSIDMessage: 'Please enter your Secret ID',
       addTencentCloudSK: 'TencentCloud Secret Key',
-      TencentCloudSKMessage: 'Please input your Secret Key',
+      TencentCloudSKMessage: 'Please enter your Secret Key',
       SparkModelNameMessage: 'Please select Spark model',
       addSparkAPIPassword: 'Spark APIPassword',
-      SparkAPIPasswordMessage: 'please input your APIPassword',
+      SparkAPIPasswordMessage: 'please enter your APIPassword',
       addSparkAPPID: 'Spark APP ID',
-      SparkAPPIDMessage: 'please input your APP ID',
+      SparkAPPIDMessage: 'please enter your APP ID',
       addSparkAPISecret: 'Spark APISecret',
-      SparkAPISecretMessage: 'please input your APISecret',
+      SparkAPISecretMessage: 'please enter your APISecret',
       addSparkAPIKey: 'Spark APIKey',
-      SparkAPIKeyMessage: 'please input your APIKey',
-      yiyanModelNameMessage: 'Please input model name',
+      SparkAPIKeyMessage: 'please enter your APIKey',
+      yiyanModelNameMessage: 'Please enter model name',
       addyiyanAK: 'yiyan API KEY',
-      yiyanAKMessage: 'Please input your API KEY',
+      yiyanAKMessage: 'Please enter your API KEY',
       addyiyanSK: 'yiyan Secret KEY',
-      yiyanSKMessage: 'Please input your Secret KEY',
+      yiyanSKMessage: 'Please enter your Secret KEY',
       FishAudioModelNameMessage:
         'Please give your speech synthesis model a name',
       addFishAudioAK: 'Fish Audio API KEY',
-      addFishAudioAKMessage: 'Please input your API KEY',
+      addFishAudioAKMessage: 'Please enter your API KEY',
       addFishAudioRefID: 'FishAudio Reference ID',
       addFishAudioRefIDMessage:
-        'Please input the Reference ID (leave blank to use the default model).',
-      GoogleModelIDMessage: 'Please input your model ID!',
+        'Please enter the Reference ID (leave blank to use the default model).',
+      GoogleModelIDMessage: 'Please enter your model ID!',
       addGoogleProjectID: 'Project ID',
-      GoogleProjectIDMessage: 'Please input your Project ID',
+      GoogleProjectIDMessage: 'Please enter your Project ID',
       addGoogleServiceAccountKey:
         'Service Account Key(Leave blank if you use Application Default Credentials)',
       GoogleServiceAccountKeyMessage:
-        'Please input Google Cloud Service Account Key in base64 format',
+        'Please enter Google Cloud Service Account Key in base64 format',
       addGoogleRegion: 'Google Cloud Region',
-      GoogleRegionMessage: 'Please input Google Cloud Region',
+      GoogleRegionMessage: 'Please enter Google Cloud Region',
       modelProvidersWarn: `Please add both embedding model and LLM in <b>Settings > Model providers</b> first. Then, set them in 'Set default models'.`,
       apiVersion: 'API-Version',
-      apiVersionMessage: 'Please input API version',
+      apiVersionMessage: 'Please enter API version',
       add: 'Add',
       updateDate: 'Update Date',
       role: 'Role',
@@ -805,8 +805,8 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
     },
     message: {
       registered: 'Registered!',
-      logout: 'logout',
-      logged: 'logged!',
+      logout: 'Logout',
+      logged: 'logged In!',
       pleaseSelectChunk: 'Please select chunk!',
       registerDisabled: 'User registration is disabled',
       modified: 'Modified',
@@ -844,7 +844,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       knowledgeBase: 'Dataset',
       size: 'Size',
       action: 'Action',
-      addToKnowledge: 'Link to Knowledge Base',
+      addToKnowledge: 'Link to dataset',
       pleaseSelect: 'Please select',
       newFolder: 'New Folder',
       file: 'File',
@@ -853,7 +853,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       directory: 'Directory',
       uploadTitle: 'Drag and drop your file here to upload',
       uploadDescription:
-        'Supports single or batch file upload. For a locally deployed RAGFlow: the total file size limit per upload is 1GB, with a batch upload limit of 32 files. There is no cap on the total number of files per account. For demo.ragflow.io, the total file size limit per upload is 10MB, with each file not exceeding 10MB and a maximum of 128 files per account.',
+        'Supports single or batch file upload. For a locally deployed KOGNIX: the total file size limit per upload is 1GB, with a batch upload limit of 32 files. There is no cap on the total number of files per account. For demo.KOGNIX.io, the total file size limit per upload is 10MB, with each file not exceeding 10MB and a maximum of 128 files per account.',
       local: 'Local uploads',
       s3: 'S3 uploads',
       preview: 'Preview',
@@ -865,7 +865,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
     },
     flow: {
       days: 'Days',
-      beginInput: 'Begin Input',
+      beginenter: 'Begin enter',
       ref: 'Variable',
       stockCode: 'Stock Code',
       apiKeyPlaceholder:
@@ -942,7 +942,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       cite: 'Cite',
       citeTip: 'citeTip',
       name: 'Name',
-      nameMessage: 'Please input name',
+      nameMessage: 'Please enter name',
       description: 'Description',
       descriptionMessage: 'This is an agent for a specific task.',
       examples: 'Examples',
@@ -951,7 +951,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       msgTip:
         'Output the variable content of the upstream component or the text entered by yourself.',
       messagePlaceholder: `Please enter your message content, use '/' to quickly insert variables.`,
-      messageMsg: 'Please input message or delete this field.',
+      messageMsg: 'Please enter message or delete this field.',
       addField: 'Add option',
       addMessage: 'Add message',
       loop: 'Loop',
@@ -967,19 +967,19 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       save: 'Save',
       title: 'ID:',
       beginDescription: 'This is where the flow begins.',
-      answerDescription: `A component that serves as the interface between human and bot, receiving user inputs and displaying the agent's responses.`,
-      retrievalDescription: `A component that retrieves information from specified knowledge bases (datasets). Ensure that the knowledge bases you select use the same embedding model.`,
+      answerDescription: `A component that serves as the interface between human and bot, receiving user enters and displaying the agent's responses.`,
+      retrievalDescription: `A component that retrieves information from specified datasets (datasets). Ensure that the datasets you select use the same embedding model.`,
       generateDescription: `A component that prompts the LLM to generate responses. Ensure the prompt is set correctly.`,
-      categorizeDescription: `A component that uses the LLM to classify user inputs into predefined categories. Ensure you specify the name, description, and examples for each category, along with the corresponding next component.`,
+      categorizeDescription: `A component that uses the LLM to classify user enters into predefined categories. Ensure you specify the name, description, and examples for each category, along with the corresponding next component.`,
       relevantDescription: `A component that uses the LLM to assess whether the upstream output is relevant to the user's latest query. Ensure you specify the next component for each judge result.`,
       rewriteQuestionDescription: `A component that rewrites a user query from the Interact component, based on the context of previous dialogues.`,
       messageDescription:
         'This component returns the final data output of the workflow along with predefined message content. ',
-      keywordDescription: `A component that retrieves top N search results from user's input. Ensure the TopN value is set properly before use.`,
+      keywordDescription: `A component that retrieves top N search results from user's enter. Ensure the TopN value is set properly before use.`,
       switchDescription: `A component that evaluates conditions based on the output of previous components and directs the flow of execution accordingly. It allows for complex branching logic by defining cases and specifying actions for each case or default action if no conditions are met.`,
-      wikipediaDescription: `A component that searches from wikipedia.org, using TopN to specify the number of search results. It supplements the existing knowledge bases.`,
+      wikipediaDescription: `A component that searches from wikipedia.org, using TopN to specify the number of search results. It supplements the existing datasets.`,
       promptText: `Please summarize the following paragraphs. Be careful with the numbers, do not make things up. Paragraphs as following:
-        {input}
+        {enter}
   The above is the content you need to summarize.`,
       createGraph: 'Create agent',
       createFromTemplates: 'Create from templates',
@@ -1001,15 +1001,15 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       keywordExtract: 'Keyword',
       keywordExtractDescription: `A component that extracts keywords from a user query, with Top N specifying the number of keywords to extract.`,
       baidu: 'Baidu',
-      baiduDescription: `A component that searches from baidu.com, using TopN to specify the number of search results. It supplements the existing knowledge bases.`,
+      baiduDescription: `A component that searches from baidu.com, using TopN to specify the number of search results. It supplements the existing datasets.`,
       duckDuckGo: 'DuckDuckGo',
       duckDuckGoDescription:
-        'A component that searches from duckduckgo.com, allowing you to specify the number of search results using TopN. It supplements the existing knowledge bases.',
+        'A component that searches from duckduckgo.com, allowing you to specify the number of search results using TopN. It supplements the existing datasets.',
       searXNG: 'SearXNG',
       searXNGDescription:
         'A component that searches via your provided SearXNG instance URL. Specify TopN and the instance URL.',
       channel: 'Channel',
-      channelTip: `Perform text search or news search on the component's input`,
+      channelTip: `Perform text search or news search on the component's enter`,
       text: 'Text',
       news: 'News',
       messageHistoryWindowSize: 'Message window size',
@@ -1018,23 +1018,23 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       wikipedia: 'Wikipedia',
       pubMed: 'PubMed',
       pubMedDescription:
-        'A component that searches from https://pubmed.ncbi.nlm.nih.gov/, allowing you to specify the number of search results using TopN. It supplements the existing knowledge bases.',
+        'A component that searches from https://pubmed.ncbi.nlm.nih.gov/, allowing you to specify the number of search results using TopN. It supplements the existing datasets.',
       email: 'Email',
       emailTip:
-        'E-mail is a required field. You must input an E-mail address here.',
+        'E-mail is a required field. You must enter an E-mail address here.',
       arXiv: 'ArXiv',
       arXivDescription:
-        'A component that searches from https://arxiv.org/, allowing you to specify the number of search results using TopN. It supplements the existing knowledge bases.',
+        'A component that searches from https://arxiv.org/, allowing you to specify the number of search results using TopN. It supplements the existing datasets.',
       sortBy: 'Sort by',
       submittedDate: 'Submitted date',
       lastUpdatedDate: 'Last updated date',
       relevance: 'Relevance',
       google: 'Google',
       googleDescription:
-        'A component that searches from https://www.google.com/, allowing you to specify the number of search results using TopN. It supplements the existing knowledge bases. Please note that this requires an API key from serpapi.com.',
+        'A component that searches from https://www.google.com/, allowing you to specify the number of search results using TopN. It supplements the existing datasets. Please note that this requires an API key from serpapi.com.',
       bing: 'Bing',
       bingDescription:
-        'A component that searches from https://www.bing.com/, allowing you to specify the number of search results using TopN. It supplements the existing knowledge bases. Please note that this requires an API key from microsoft.com.',
+        'A component that searches from https://www.bing.com/, allowing you to specify the number of search results using TopN. It supplements the existing datasets. Please note that this requires an API key from microsoft.com.',
       apiKey: 'API KEY',
       country: 'Country & Region',
       language: 'Language',
@@ -1284,7 +1284,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       },
       concentrator: 'Concentrator',
       concentratorDescription:
-        'A component that receives the output from the upstream component and passes it on as input to the downstream components.',
+        'A component that receives the output from the upstream component and passes it on as enter to the downstream components.',
       tuShare: 'TuShare',
       tuShareDescription:
         'A component that obtains financial news briefs from mainstream financial websites, aiding industry and quantitative research.',
@@ -1306,7 +1306,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       noteDescription: 'Note',
       notePlaceholder: 'Please enter a note',
       invoke: 'HTTP Request',
-      invokeDescription: `A component capable of calling remote services, using other components' outputs or constants as inputs.`,
+      invokeDescription: `A component capable of calling remote services, using other components' outputs or constants as enters.`,
       url: 'Url',
       method: 'Method',
       timeout: 'Timeout',
@@ -1315,7 +1315,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       cleanHtmlTip:
         'If the response is HTML formatted and only the primary content wanted, please toggle it on.',
       reference: 'Reference',
-      input: 'Input',
+      enter: 'enter',
       output: 'Output',
       parameter: 'Parameter',
       howUseId: 'How to use agent ID?',
@@ -1327,7 +1327,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       testRun: 'Test Run',
       template: 'Template',
       templateDescription:
-        'A component that formats the output of other components.1. Supports Jinja2 templates, will first convert the input to an object and then render the template, 2. Simultaneously retains the original method of using {parameter} string replacement',
+        'A component that formats the output of other components.1. Supports Jinja2 templates, will first convert the enter to an object and then render the template, 2. Simultaneously retains the original method of using {parameter} string replacement',
       emailComponent: 'Email',
       emailDescription: 'Send an email to a specified address.',
       smtpServer: 'SMTP Server',
@@ -1339,11 +1339,11 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       ccEmail: 'CC Email',
       emailSubject: 'Subject',
       emailContent: 'Content',
-      smtpServerRequired: 'Please input SMTP server address',
-      senderEmailRequired: 'Please input sender email',
-      authCodeRequired: 'Please input authorization code',
-      toEmailRequired: 'Please input recipient email',
-      emailContentRequired: 'Please input email content',
+      smtpServerRequired: 'Please enter SMTP server address',
+      senderEmailRequired: 'Please enter sender email',
+      authCodeRequired: 'Please enter authorization code',
+      toEmailRequired: 'Please enter recipient email',
+      emailContentRequired: 'Please enter email content',
       emailSentSuccess: 'Email sent successfully',
       emailSentFailed: 'Failed to send email',
       dynamicParameters: 'Dynamic Parameters',
@@ -1356,9 +1356,9 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       jsonUploadTypeErrorMessage: 'Please upload json file',
       jsonUploadContentErrorMessage: 'json file error',
       iteration: 'Iteration',
-      iterationDescription: `A looping component that iterates over an input array and executes a defined logic for each item.`,
+      iterationDescription: `A looping component that iterates over an enter array and executes a defined logic for each item.`,
       delimiterTip: `
-This delimiter is used to split the input text into several text pieces echo of which will be performed as input item of each iteration.`,
+This delimiter is used to split the enter text into several text pieces echo of which will be performed as enter item of each iteration.`,
       delimiterOptions: {
         comma: 'Comma',
         lineBreak: 'Line break',
@@ -1421,15 +1421,15 @@ This delimiter is used to split the input text into several text pieces echo of 
       },
       prompt: 'Prompt',
       promptTip:
-        'Use the system prompt to describe the task for the LLM, specify how it should respond, and outline other miscellaneous requirements. The system prompt is often used in conjunction with keys (variables), which serve as various data inputs for the LLM. Use a forward slash `/` or the (x) button to show the keys to use.',
+        'Use the system prompt to describe the task for the LLM, specify how it should respond, and outline other miscellaneous requirements. The system prompt is often used in conjunction with keys (variables), which serve as various data enters for the LLM. Use a forward slash `/` or the (x) button to show the keys to use.',
       promptMessage: 'Prompt is required',
       infor: 'Information run',
       knowledgeBasesTip:
-        'Select the knowledge bases to associate with this chat assistant, or choose variables containing knowledge base IDs below.',
-      knowledgeBaseVars: 'Knowledge base variables',
+        'Select the datasets to associate with this chat assistant, or choose variables containing dataset IDs below.',
+      knowledgeBaseVars: 'dataset variables',
       code: 'Code',
       codeDescription: 'It allows developers to write custom Python logic.',
-      inputVariables: 'Input variables',
+      enterVariables: 'enter variables',
       runningHintText: 'is running...🕞',
       openingSwitch: 'Opening switch',
       openingCopy: 'Opening greeting',
@@ -1439,8 +1439,8 @@ This delimiter is used to split the input text into several text pieces echo of 
       mode: 'Mode',
       conversational: 'conversational',
       task: 'task',
-      beginInputTip:
-        'By defining input parameters, this content can be accessed by other components in subsequent processes.',
+      beginenterTip:
+        'By defining enter parameters, this content can be accessed by other components in subsequent processes.',
       query: 'Query variables',
       queryTip: 'Select the variable you want to use',
       agent: 'Agent',
